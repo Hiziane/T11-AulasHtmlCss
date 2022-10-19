@@ -1,0 +1,10 @@
+Exercicio 25
+
+1- Quais os possiveis métodos para referenciar um seletor em um estilo CSS?
+R: Nome do elemento: - ID // - Classe.
+
+2- Qual a finalidade do atributo Href em uma âncora?
+R: Fazer uma referência à um diretório local ou externo (paginas).
+
+3- Qual é a tag smântica para criar menus de navegação?
+R:  <nav>

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+:root{
+    --cor_background_body: white;
+}
+body{
+    background-color: var(--cor_background_body);
+}
+div#quadrado{
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    border: 2px solid brown;
+    background-color: wheat;
+}
+div#quadrado > div#forma{
+    width: 100px;
+    /* height: 100px; */
+    height: 30px;
+    background-color: chocolate;
+    margin: 50px auto;
+    border-radius: 15px;
+    cursor: pointer;/*mostrar a maozinha do mouse*/
+}

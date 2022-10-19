@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 21 -Listas</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: royalblue;
+    }
+    main{
+        margin: 50px auto;
+        height: auto;
+        width: 80%;
+        border: 2px dotted rebeccapurple;
+        font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: seashell;
+    }
+    h2{
+        font-size: 0.8em;
+        padding: 5px 0 9px 0;
+    }
+    .borda{
+        border: 1px solid red;
+    }
+    .margem{
+        margin: 30px;
+    }
+    .remove-bullet{
+        list-style: none; /*remove aqueles marcadores que ficam na frente dos itens da lista*/
+    }
+    li{
+        width: 100%;
+        height: auto;
+        background-color: aqua;
+        margin: 2px;
+    }
+    ol{
+        width: 200px;
+        height: auto;
+        margin: 30px;
+    }
+    div{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%; /*pra deixar redondo*/
+        background-color: springgreen;
+        margin: 5px;
+        display: inline-block;
+    }
+</style>
+<body>
+    <main>
+        <h2>LISTA DESORDENADA</h2>
+                <ul class="borda margem remove-bullet">
+                    <li>pao</li>
+                    <li>cafe</li>
+                    <li>leite</li>
+                    <li>acucar</li>
+                    <li><a href="#">Clique aqui</a></li>
+                </ul>
+        <h2>LISTA ORDENADA</h2>
+                <ol class="margem" type="A">
+                    <li>pao</li>
+                    <li>cafe</li>
+                    <li>leite</li>
+                    <li>acucar</li>
+                    <li><a href="#">Clique aqui</a></li>
+                </ol>
+        <h2>LISTA POR DEFINIÇÃO</h2>
+        <dl>
+            <dt><strong>Fiat</strong></dt>
+                <dd>Tempra</dd>
+                <dd>Uno</dd>
+            <dt>VW</dt>
+                <dd style="color: red">gol</dd>
+                <dd>Fusca</dd>
+        </dl>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+</html>

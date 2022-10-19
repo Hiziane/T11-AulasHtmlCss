@@ -1,0 +1,10 @@
+Exercicio 30
+
+1- Qual a propriedade CSS que permite criar um efeito de sombra em um elemento Html?
+R: Box-Shadow
+
+2- O que realmente garante a transmissao ou submissao de dados de um formulário?
+R: certificado de segurançao ssl.
+
+3- Crie um formulário com um campo do tipo e-mail e do tipo senha, acrescente um botão de 
+submissão.

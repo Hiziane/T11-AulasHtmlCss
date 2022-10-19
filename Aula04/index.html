@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 5</title>
+</head>
+<style>
+    /*header{
+        border: 1px solid black;
+        width: 80%;
+        height: 50px;
+    }
+    main{
+        width: 80%;
+        height: auto;
+    }
+    article{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        width: 80%;
+        height: 50px;
+    }*/
+
+    head,main, footer{
+        width: 80%;
+        border: 1px solid black;
+        margin: 0 auto;
+    }
+    main, article{
+        height: auto;
+    }
+    /* o id só pode ser usado uma unica vez*/
+    #ajuste-margem{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /* a classe pode ser usada mais de uma vez*/
+    .seletor-paragrafo{
+        border-top: 2px solid red;
+        border-bottom: 2px solid red;
+    }
+    article{
+        width: 100%;
+    }
+    header,footer{
+        height: 50px;
+    }
+</style>
+<body>
+    <header>Aqui está meu header</header>
+    <main id="ajuste-margem"> 
+        <article>
+            <p class="seletor-paragrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sed, tempore nisi praesentium ipsam a quaerat, eligendi 
+                eaque corporis blanditiis, rem vero sit tenetur! Rem, 
+                omnis odio fuga molestiae accusamus quas.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sed, tempore nisi praesentium ipsam a quaerat, eligendi 
+                eaque corporis blanditiis, rem vero sit tenetur! Rem, 
+                omnis odio fuga molestiae accusamus quas.
+            </p>
+            <p class="seletor-paragrafo">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sed, tempore nisi praesentium ipsam a quaerat, eligendi 
+                eaque corporis blanditiis, rem vero sit tenetur! Rem, 
+                omnis odio fuga molestiae accusamus quas.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Sed, tempore nisi praesentium ipsam a quaerat, eligendi 
+                eaque corporis blanditiis, rem vero sit tenetur! Rem, 
+                omnis odio fuga molestiae accusamus quas.
+            </p>
+        </article>
+    </main>
+    <footer>Aqui está meu footer</footer>
+</body>
+</html>
